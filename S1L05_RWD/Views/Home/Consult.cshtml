@@ -11,22 +11,28 @@
     <form action="/action_page.php">
         <label for="Form" class="form-label">Your Details:</label>
 
-        <div class="row">
-            <div class="col-md-6">
+        <div class ="row">
+            <div class="col-6">
                 <label for="firstName" class="form-label">First Name:</label>
-                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" name="firstName" required>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" name="firstName">
+                <div class="valid-feedback">Thank You.</div>
+                <div class="invalid-feedback">Please provide the correct infomation.</div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-6">
                 <label for="lastName" class="form-label">Last Name:</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName" required>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName">
+                <div class="valid-feedback">Thank You.</div>
+                <div class="invalid-feedback">Please provide the correct infomation.</div>
             </div>
         </div>
 
-            <div class="Email">
-                <label for="email" class="form-label">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
-            </div>
+        <div class="Email">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            <div class="valid-feedback">Thank You.</div>
+            <div class="invalid-feedback">Please provide the correct infomation.</div>
+        </div>
 
             <div class="Comments">
                 <label for="comments" class="form-label">Comments:</label>
